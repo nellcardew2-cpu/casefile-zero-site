@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102d46">
+  <meta name="description" content="Unlock Case Zero: The Eleven-Minute Gap, an exclusive Nell Cardew reader case.">
+  <title>Case Zero — The Eleven-Minute Gap</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="landing-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="preview-banner" role="status">
+    <span class="status-dot" aria-hidden="true"></span>
+    Local approval copy — email delivery is not connected
+  </div>
+
+  <header class="site-header wrap" aria-label="Site header">
+    <a class="wordmark" href="index.html" aria-label="Nell Cardew home">
+      <span>NELL CARDEW</span>
+      <small>Halloway Archive Cases</small>
+    </a>
+    <span class="file-label">READER FILE 00</span>
+  </header>
+
+  <main id="main">
+    <section class="landing-hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span>Exclusive reader case</span> · 25–35 minutes</p>
+        <h1>THE ELEVEN-<br><span>MINUTE GAP</span></h1>
+        <p class="hero-deck">Five clocks disagree.<br>One document is lying.</p>
+
+        <div class="case-facts" aria-label="Case features">
+          <span>Screen-first</span>
+          <span>Interactive Case Board</span>
+          <span>One verified solution</span>
+        </div>
+
+        <div class="access-card" id="access">
+          <div class="access-card__heading">
+            <span class="step-number">01</span>
+            <div>
+              <p class="kicker">Buyer bonus</p>
+              <h2>Receive your private case link</h2>
+            </div>
+          </div>
+          <p>Enter the email address where you want the access link delivered. No account or password is required.</p>
+
+          <form class="access-form" id="access-form" novalidate>
+            <label for="reader-email">Email address</label>
+            <div class="input-row">
+              <input id="reader-email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="reader@example.com" aria-describedby="email-note email-error" required>
+              <button class="button button--yellow" type="submit">Send my case link</button>
+            </div>
+            <p class="field-note" id="email-note">Approval mode: this form does not transmit or save your email.</p>
+            <p class="field-error" id="email-error" role="alert"></p>
+
+            <label class="check-row" for="news-consent">
+              <input id="news-consent" name="marketing_consent" type="checkbox">
+              <span>Also send me occasional news about the next Nell Cardew case. Optional; I can unsubscribe at any time.</span>
+            </label>
+          </form>
+
+          <div class="form-success" id="form-success" hidden tabindex="-1">
+            <p class="kicker">Delivery simulation complete</p>
+            <h3>Your case file is ready.</h3>
+            <p>In the live version, the reader receives a private access link by email. For this approval copy, continue directly.</p>
+            <div class="button-row">
+              <a class="button button--yellow" href="case.html">Open interactive case</a>
+              <a class="button button--paper" href="downloads/CASE_ZERO_The_Eleven-Minute_Gap.pdf" download>Download / print PDF</a>
+            </div>
+          </div>
+
+          <div class="preview-shortcut">
+            <span>Reviewing the prototype?</span>
+            <a href="case.html">Open the case without entering an email →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Five conflicting system clocks">
+        <div class="clock-figure" aria-hidden="true">
+          <div class="clock-ring clock-ring--outer"></div>
+          <div class="clock-ring clock-ring--inner"></div>
+          <div class="clock-hand clock-hand--minute"></div>
+          <div class="clock-hand clock-hand--hour"></div>
+          <div class="clock-center"></div>
+          <span class="gap-mark gap-mark--one"></span>
+          <span class="gap-mark gap-mark--two"></span>
+        </div>
+        <div class="timestamp timestamp--access"><small>ACCESS</small><strong>18:08</strong></div>
+        <div class="timestamp timestamp--mail"><small>MAIL</small><strong>18:11</strong></div>
+        <div class="timestamp timestamp--print"><small>PRINT</small><strong>18:03</strong></div>
+        <div class="timestamp timestamp--lift"><small>LIFT</small><strong>18:09</strong></div>
+        <p class="visual-caption">The clocks were not lying.<br>We were wrong about what their numbers meant.</p>
+      </div>
+    </section>
+
+    <section class="how-it-works">
+      <div class="wrap">
+        <p class="eyebrow eyebrow--dark">Before you open the file</p>
+        <h2>Everything you need is on screen.</h2>
+        <div class="steps-grid">
+          <article>
+            <span>01</span>
+            <h3>Read the evidence</h3>
+            <p>Meet four employees and examine five retained exhibits.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Correct the clocks</h3>
+            <p>Use simultaneous events to reconstruct actual time.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Complete the board</h3>
+            <p>Your notes save automatically, or you can download and print the 18-page PDF.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Verify your solution</h3>
+            <p>Reveal progressive hints only if you need them, then close the case.</p>
+          </article>
+        </div>
+        <p class="no-print-note"><strong>No printer needed.</strong> The entire prequel is designed for phone, tablet or computer.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© Nell Cardew · Halloway Archive Cases</p>
+      <a href="privacy.html">Privacy note</a>
+    </div>
+  </footer>
+
+  <script src="assets/landing.js"></script>
+</body>
+</html>
