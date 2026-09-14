@@ -65,6 +65,12 @@ button { cursor: pointer; }
 .case-facts { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 32px; }
 .case-facts span { padding: 7px 10px; border: 1px solid rgba(247,240,223,.4); color: var(--cream); font-size: 11px; line-height: 1.2; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; }
 .access-card { max-width: 660px; padding: 26px; background: var(--paper); box-shadow: 12px 12px 0 var(--blue-pale); }
+.access-card--embed { padding: 18px; }
+.access-card--embed > .kicker { margin: 0 0 8px; }
+.brevo-form-frame { width: 100%; overflow: hidden; background: #fff; }
+.brevo-form-frame iframe { display: block; width: 100%; max-width: 540px; margin: 0 auto; border: 0; }
+.embed-privacy { margin: 10px 0 0; padding-top: 12px; border-top: 1px solid var(--border); color: var(--muted); font-size: 12px; line-height: 1.5; }
+.embed-privacy a { color: var(--navy); font-weight: 850; }
 .access-card__heading { display: flex; align-items: flex-start; gap: 16px; }
 .access-card__heading h2 { margin: 0; color: var(--navy); font-size: 23px; line-height: 1.1; }
 .access-card > p { margin: 14px 0 18px; font-size: 15px; line-height: 1.55; }
@@ -325,6 +331,8 @@ td time { color: var(--navy); font-family: ui-monospace, SFMono-Regular, Menlo, 
   .hero-copy h1, .case-hero h1 { font-size: clamp(52px, 15.5vw, 78px); }
   .hero-deck { font-size: 21px; }
   .access-card { margin-top: 26px; padding: 20px; box-shadow: 7px 7px 0 var(--blue-pale); }
+  .access-card--embed { padding: 12px; }
+  .brevo-form-frame iframe { height: 820px; }
   .access-card__heading h2 { font-size: 20px; }
   .input-row { grid-template-columns: 1fr; gap: 9px; }
   .input-row input { border-right: 2px solid var(--navy); }
