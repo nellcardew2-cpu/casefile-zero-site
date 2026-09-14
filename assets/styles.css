@@ -78,6 +78,8 @@ button { cursor: pointer; }
 .field-error { min-height: 18px; color: var(--danger); font-weight: 800; }
 .check-row { display: flex; align-items: flex-start; gap: 10px; margin: 14px 0 0; color: var(--ink); font-size: 13px; line-height: 1.4; cursor: pointer; }
 .check-row input { flex: 0 0 auto; width: 18px; height: 18px; margin-top: 1px; accent-color: var(--navy); }
+.privacy-note { margin: 8px 0 0; color: var(--muted); font-size: 12px; line-height: 1.45; }
+.privacy-note a { color: var(--navy); font-weight: 850; text-underline-offset: 3px; }
 .preview-shortcut { display: flex; justify-content: space-between; gap: 14px; margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--border); font-size: 13px; }
 .preview-shortcut span { color: var(--muted); }
 .preview-shortcut a { color: var(--navy); font-weight: 850; }
@@ -285,6 +287,13 @@ td time { color: var(--navy); font-family: ui-monospace, SFMono-Regular, Menlo, 
 .legal-page h1 { margin: 0 0 28px; color: var(--navy); font-family: var(--display); font-size: clamp(52px, 8vw, 90px); line-height: .95; text-transform: uppercase; }
 .legal-card { max-width: 760px; padding: 30px; border-left: 8px solid var(--yellow); background: var(--paper); box-shadow: var(--shadow); }
 .legal-card p:first-child { margin-top: 0; }.legal-card p:last-child { margin-bottom: 0; }
+.legal-card h2 { margin: 32px 0 10px; color: var(--navy); font-size: 20px; line-height: 1.25; }
+.legal-card h2:first-child { margin-top: 0; }
+.legal-card p, .legal-card li { color: var(--ink); }
+.legal-card ul { padding-left: 22px; }
+.legal-card li { margin-bottom: 8px; }
+.legal-card a { color: var(--navy); font-weight: 750; text-underline-offset: 3px; }
+.legal-meta { margin: -15px 0 28px !important; color: var(--muted) !important; font-size: 13px; }
 
 [hidden] { display: none !important; }
 
