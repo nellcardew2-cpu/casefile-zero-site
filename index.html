@@ -14,7 +14,7 @@
 
   <div class="preview-banner" role="status">
     <span class="status-dot" aria-hidden="true"></span>
-    Local approval copy — email delivery is not connected
+    Review copy — test submissions use the live Brevo form
   </div>
 
   <header class="site-header wrap" aria-label="Site header">
@@ -38,47 +38,19 @@
           <span>One verified solution</span>
         </div>
 
-        <div class="access-card" id="access">
-          <div class="access-card__heading">
-            <span class="step-number">01</span>
-            <div>
-              <p class="kicker">Newsletter welcome gift</p>
-              <h2>Join Nell Cardew's reader list</h2>
-            </div>
+        <div class="access-card access-card--embed" id="access">
+          <p class="kicker">Newsletter welcome gift</p>
+          <div class="brevo-form-frame">
+            <iframe
+              title="Join the Nell Cardew reader list and receive Case Zero"
+              width="540"
+              height="760"
+              src="https://7eb5626b.sibforms.com/v2/serve/MUIFAIOdN_zD4Jz87wn4ojX9CddR76wjHwv8Qo5DIV_Hgl8JZ-zbxhH1ObPjxohAAEsY0iJQMIpy4CkgXSaha_k2XPYPseNigJxnaHMbnv4xM3crVhyX4XaqQghcIgm1vvJpIT8VIbLUGPXwjxYPmsvo4TCaLE1v5Na3ZkpmQ1a5u7mTtlzSzBhnL3mz5fzqSG-Cr4vDNG_1DCRyWA=="
+              frameborder="0"
+              scrolling="auto"
+              loading="eager"></iframe>
           </div>
-          <p>Subscribe for occasional emails about new books, mystery puzzles and bonus content. As a welcome gift, we'll send you <em>Case Zero — The Eleven-Minute Gap</em>.</p>
-
-          <form class="access-form" id="access-form" novalidate>
-            <label for="reader-email">Email address</label>
-            <div class="input-row">
-              <input id="reader-email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="reader@example.com" aria-describedby="email-note email-error" required>
-              <button class="button button--yellow" type="submit">Join &amp; get Case Zero</button>
-            </div>
-            <p class="field-note" id="email-note">We'll send Case Zero to this address.</p>
-            <p class="field-error" id="email-error" role="alert"></p>
-
-            <label class="check-row" for="news-consent">
-              <input id="news-consent" name="marketing_consent" type="checkbox" aria-describedby="consent-error privacy-note" required>
-              <span>I agree to receive emails from Nell Cardew about new books, mystery puzzles and bonus content. I can unsubscribe at any time.</span>
-            </label>
-            <p class="field-error" id="consent-error" role="alert"></p>
-            <p class="privacy-note" id="privacy-note">Read how we use your email in our <a href="privacy.html">Privacy Notice</a>.</p>
-          </form>
-
-          <div class="form-success" id="form-success" hidden tabindex="-1">
-            <p class="kicker">Delivery simulation complete</p>
-            <h3>Check your inbox.</h3>
-            <p>In the live version, confirm your subscription from the email we send you. Your Case Zero access link will follow confirmation. For this approval copy, continue directly.</p>
-            <div class="button-row">
-              <a class="button button--yellow" href="case.html">Open interactive case</a>
-              <a class="button button--paper" href="downloads/CASE_ZERO_The_Eleven-Minute_Gap.pdf" download>Download / print PDF</a>
-            </div>
-          </div>
-
-          <div class="preview-shortcut">
-            <span>Reviewing the prototype?</span>
-            <a href="case.html">Open the case without entering an email →</a>
-          </div>
+          <p class="embed-privacy">Read how we use your information in our <a href="privacy.html">Privacy Notice</a>.</p>
         </div>
       </div>
 
@@ -138,6 +110,5 @@
     </div>
   </footer>
 
-  <script src="assets/landing.js"></script>
 </body>
 </html>
