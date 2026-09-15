@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /casefile-zero-site/case.html
+Disallow: /casefile-zero-site/downloads/
+Disallow: /casefile-zero-site/privacy.html
